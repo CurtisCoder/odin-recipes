@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    font-family: "Roboto Serif";
+    }
+    
+h1 {
+    background: red;
+    color: white;
+    }
+    
+p, ol, ul {
+    font-family: 'Roboto';
+    }
+    
+img {
+    width: 200px;
+    height: auto;
+    }
