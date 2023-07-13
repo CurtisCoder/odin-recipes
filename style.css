@@ -1,12 +1,24 @@
+* {
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+}
+
+
+
+body {
+    max-width: 400px;
+    background: lightgray;
+}
+
 h1 {
+    max-width: 250px;
     text-align: center;
     font-family: "Roboto Serif";
-    }
-    
-h1 {
     background: red;
     color: white;
-    }
+    margin: 0 auto;
+ }
     
 p, ol, ul {
     font-family: 'Roboto';
@@ -15,4 +27,14 @@ p, ol, ul {
 img {
     width: 200px;
     height: auto;
+    display: block;
+    margin: 0 auto;
     }
+
+.homepage {
+   text-align: center;
+}
+
+.highlight {
+    background-color: yellow;
+}
